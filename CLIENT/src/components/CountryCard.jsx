@@ -6,7 +6,7 @@ const CountryCard = ({ country }) => {
         Currency:
         {country.currencies && Object.values(country.currencies)[0].name}(
         {country.currencies && Object.values(country.currencies)[0].symbol})
-      </p>{" "}
+      </p>
     </div>
   );
 };
