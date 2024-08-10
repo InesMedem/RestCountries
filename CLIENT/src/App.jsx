@@ -1,4 +1,4 @@
-import RestcountriesAPI from "./RestcountriesAPI";
+import RestcountriesAPI from "./services/RestcountriesAPI";
 
 const App = () => {
   return (
