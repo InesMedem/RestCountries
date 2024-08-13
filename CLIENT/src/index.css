@@ -17,6 +17,16 @@ body {
   line-height: 1;
 }
 
+.card {
+  background-color: aqua;
+  margin: 2rem;
+}
+
+.country-Grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
 /* Add any desired spinner animation or style */
 .spinner:before {
   content: "";
